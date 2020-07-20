@@ -56,7 +56,10 @@ a:hover::after {
 
 .logo{
   padding:1rem;
-  background-color: #c5e9e1;
+  box-sizing: border-box;
+  color: white;
+
+  /* background-color: #c5e9e1; */
 }
 
 main{
@@ -109,20 +112,26 @@ main{
 
 span.title{
   display:inline-block;
-  font-size: 20px;
+  font-size: 30px;
   background-color: rgb(21, 222, 167);
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 
 }
 
 span.title::after{
-left: 50%;
-bottom: 0;
-content: '';
-height: 3px;
-width: 80px;
-background: #d90845;
-border-radius: 3px;
+  left: 50%;
+  margin: 0 0 0 -40px;
+  top: 4rem;
+  content: '';
+  height: 3px;
+  width: 100px;
+  background: #d90845;
+  border-radius: 3px;
+  position: absolute;
 
+}
+
+.box{
+  margin-bottom: 1rem;
 }
