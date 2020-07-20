@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container{
+  background-color: #3582d2;
+  width:100%;
+  margin-top: 0;
+}
+
+.row{
+  display: flex;
+}
+.header{
+  height:5rem;
+  background-color: #46cbee;
+  display:flex;
+  justify-content:flex-end;
+
+}
+
+
+.nav{
+  background-color: #1e93de;
+  padding: 1rem;
+
+
+}
