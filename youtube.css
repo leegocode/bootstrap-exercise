@@ -1,0 +1,35 @@
+.video-recommand{
+  border: 1px solid;
+  background-color: #ffd2d2;
+}
+.video-recommand img{
+  width:100%;
+}
+
+.video-title{
+  display: flex;
+  /* padding: 1rem; */
+  box-sizing: border-box;
+
+
+}
+
+.video-circle{
+  width:15%;
+  height:100%;
+
+}
+
+.video-circle .circle{
+  /* flex: 0 1 30%; */
+  /* width: 100px; */
+  /* height: 100px; */
+  padding-top: 100%;
+  margin-right: 5%;
+  background-color: #a74040;
+  border-radius: 50%;
+}
+
+.video-name{
+  background-color: #bbb;
+}
