@@ -82,9 +82,11 @@ main{
 .container{
 
   box-sizing: border-box;
-  background-color: #e9a7a7;
+  background-color: #f9d2d9;
+  border:1px solid;
   width:100%;
-  padding: 0rem;
+  padding-top: 1rem;
+  padding-bottom:1rem;
   display: flex;
   flex-wrap: wrap;
 
@@ -96,6 +98,7 @@ main{
   flex-wrap:wrap;
   padding: 2rem;
   box-sizing: border-box;
+
 }
 
 
@@ -134,4 +137,94 @@ span.title::after{
 
 .box{
   margin-bottom: 1rem;
+}
+
+
+
+.lecture-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid;
+
+
+
+}
+
+.box-info{
+  margin-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  /* max-width: 80%; */
+
+
+}
+
+
+.lecture-wrap img{
+  width:100%;
+
+}
+
+.lecture-content {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 5%;
+}
+
+.lecture-content *{
+  margin-bottom: 2%;
+
+}
+.lecture-content>span{
+  background-color: #f17d7d;
+  padding:3px;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+
+.lecture-content h4{
+font-size: 20px;
+}
+
+.lecture-content>small{
+  display: inline-block;
+  margin-top: 10%;
+  font-size:15px;
+  position: relative;
+  /* background-color: #fff; */
+}
+
+.lecture-time>small{
+  display: inline-block;
+  margin-top: 10%;
+  font-size:15px;
+
+}
+
+
+  .lecture-content>small::after{
+
+
+  top: 2rem;
+  display: block;
+  content: '';
+  height: 1px;
+  width: 180%;
+  background: #3e3e3e;
+  position: absolute;
+}
+
+
+.lecture-time{
+  margin-top: 1%;
+}
+
+.lecture-time-item{
+  display: inline-block;
+}
+.badge{
+  padding: 6px;
+  border-radius: 5px;
+  background-color: rgb(201, 199, 201);
 }
