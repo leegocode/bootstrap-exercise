@@ -11,25 +11,28 @@
   display: flex;
   flex-wrap:wrap;
   justify-content: space-between;
+  align-items:center;
+
 }
 
 .nav{
   display:flex;
+  flex-wrap: wrap;
   background-color: #f1abab;
   justify-content: center;
-  margin-right: 0rem;
-  box-sizing:border-box;
+  box-sizing: border-box;
+
 }
 
 
 .nav a{
-  margin-left: 0.3rem;
+  /* margin-left: 0.3rem; */
   padding:0.7rem;
   box-sizing: border-box;
   background-color: #f1abab;
   color: white;
   text-decoration: inherit;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  /* box-shadow: 0 1px 2px rgba(0,0,0,0.15); */
   transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -62,15 +65,11 @@ a:hover::after {
   /* background-color: #c5e9e1; */
 }
 
-main{
-  box-sizing: border-box;
-  padding: 3rem 0;
-  background-color: rgb(211, 240, 132);
-}
 
 
 
 .slider{
+  font-size: 0px;
   background-color:rgb(156, 100, 217);
 }
 
@@ -82,12 +81,22 @@ main{
 .container{
   box-sizing: border-box;
   background-color: #f9d2d9;
-  border:1px solid;
+  /* border:1px solid; */
   width:100%;
-  padding-top: 1rem;
-  padding-bottom:1rem;
+  /* padding-top: 1rem; */
+  /* padding-bottom:1rem; */
   display: flex;
   flex-wrap: wrap;
+  background-color: #ffeeee;
+}
+
+.container:nth-child(even){
+  background-color: #f5cfcf;
+
+}
+
+footer .container{
+  background-color: #d5d5d5;
 }
 
 
@@ -95,7 +104,7 @@ main{
 
 .row{
   display: flex;
-  border: 1px solid;
+  /* border: 1px solid; */
   flex-wrap:wrap;
   padding: 2rem;
   box-sizing: border-box;
@@ -119,23 +128,22 @@ main{
 span.title{
   display:inline-block;
   font-size: 30px;
-  background-color: rgb(21, 222, 167);
+  /* background-color: rgb(21, 222, 167); */
   position: relative;
   margin-bottom: 3rem;
 
 }
 
 span.title::after{
-  left: 50%;
-  margin: 0 0 0 -40px;
+  display:block;
+  left:2rem;
   top: 4rem;
   content: '';
   height: 3px;
-  width: 100px;
+  width: 80%;
   background: #d90845;
   border-radius: 3px;
   position: absolute;
-
 }
 
 .box{
@@ -155,8 +163,8 @@ span.title::after{
 
 .box-info{
   margin-bottom: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  /* padding-left: 3rem; */
+  /* padding-right: 3rem; */
   /* max-width: 80%; */
 
 
@@ -172,6 +180,7 @@ span.title::after{
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 5%;
+  box-sizing: border-box;
 }
 
 .lecture-content *{
@@ -187,7 +196,7 @@ span.title::after{
 }
 
 .lecture-content h4{
-font-size: 20px;
+  font-size: 20px;
 }
 
 .lecture-content>small{
@@ -235,17 +244,25 @@ font-size: 20px;
 .f-logo{
   width:100%;
   display: flex;
+  flex-wrap:wrap;
   /* padding: 1rem */
 
 }
 
 
 .footer-logo{
-  background-color:rgb(206, 231, 107);
+  /* background-color:rgb(206, 231, 107); */
   padding: 1rem;
   box-sizing: border-box;
   /* margin: 0 0.5em; */
   width:100%;
+
+}
+
+footer a{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
 
 }
 
@@ -260,7 +277,7 @@ font-size: 20px;
 
 .footer-info{
   box-sizing: border-box;
-  background-color:rgb(98, 116, 27);
+  /* background-color:rgb(98, 116, 27); */
   padding:1rem;
   display: flex;
   flex-wrap: wrap;
@@ -274,5 +291,5 @@ font-size: 20px;
 }
 
 .f-links{
-  /* padding-left: 1rem; */
+  padding-left: 2rem;
 }
