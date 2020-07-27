@@ -1,0 +1,79 @@
+footer li{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+footer ul {
+       list-style-type: none;
+       display: contents;
+   }
+
+
+a{
+  color: inherit;
+  text-decoration: inherit;
+
+}
+.footerlogo{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.man{
+  width:100px;
+}
+
+.slides{
+  height:30%;
+}
+
+@media screen and (min-width:768px){
+  .slides{
+    height:440px;
+  }
+}
+
+
+h3>span::after{
+  display: block;
+  content: '';
+  height: 5px;
+  width: 40%;
+  background: #d54d4d;
+  /* position: absolute; */
+  margin: auto;
+  margin-top: 2rem;
+  /* left: 10rem; */
+}
+
+
+.lecture-wrap{
+  margin-left: 0rem;
+  padding: 4px;
+  flex: 1 0 10%;
+  box-sizing: border-box;
+  background-color: #7dc1de;
+}
+
+/* @media screen and (min-width:400px) {
+  .lecture{
+    flex: 1 0 100%;
+  }
+
+} */
+
+.lecture-list{
+ flex-wrap: wrap;
+}
+
+
+
+
+}
+
+.badge{
+  background: #fb8080;
+  padding: 0.4rem;
+
+}

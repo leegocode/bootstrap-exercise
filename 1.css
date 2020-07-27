@@ -38,7 +38,7 @@
 
 @media screen and (min-width:1200px) {
   .nav{
-    margin-right: 10rem;
+    margin-right: 1rem;
   }
   .nav a{
     padding: 1rem;
@@ -58,9 +58,10 @@ a:hover::after {
 }
 
 .logo{
-  padding:1rem;
+  /* padding:1rem; */
   box-sizing: border-box;
   color: white;
+
 
   /* background-color: #c5e9e1; */
 }
@@ -135,15 +136,15 @@ span.title{
 }
 
 span.title::after{
-  display:block;
-  left:2rem;
-  top: 4rem;
+  /* top: 5rem; */
+  display: block;
   content: '';
-  height: 3px;
+  height: 5px;
   width: 80%;
-  background: #d90845;
-  border-radius: 3px;
+  left:2rem;
+  background: #d54d4d;
   position: absolute;
+  margin-top:1rem;
 }
 
 .box{
@@ -245,16 +246,17 @@ span.title::after{
   width:100%;
   display: flex;
   flex-wrap:wrap;
+  /* align-items: flex-end; */
   /* padding: 1rem */
 
 }
 
 
 .footer-logo{
-  /* background-color:rgb(206, 231, 107); */
-  padding: 1rem;
+  background-color:rgb(206, 231, 107);
+  /* padding: 1rem; */
   box-sizing: border-box;
-  /* margin: 0 0.5em; */
+  margin-top: 2rem;
   width:100%;
 
 }
@@ -264,7 +266,6 @@ footer a{
   text-decoration: inherit; /* no underline */
 }
 
-}
 
 .footer-logo *{
   margin-bottom: 1rem;
