@@ -14,7 +14,7 @@ section{
 }
 
 .card:hover{
-  background-color: rgba(69, 69, 69, 0.86);
+  background-color: rgba(69, 69, 69, 0.67);
   color: white;
   /* border-radius: 10px; */
   transform: perspective(0em) rotateY(0deg) rotateZ(0deg);
@@ -23,8 +23,8 @@ section{
 
 .card:hover .card-header,
 .card:hover .card-footer {
-  color: #ba8b00;
-  background-color: #ffc9ba;
+  color: #fffbfb;
+  background-color: #b8b8b8;
   /* border-radius: 10px; */
 }
 .card-body{
@@ -114,7 +114,7 @@ section{
 }
 
 .card:hover .promotion-promo {
-  color: red;
+  color: rgb(245, 56, 56);
   -webkit-transform: scale(1.175) translateY(2.5px);
           transform: scale(1.175) translateY(2.5px);
   -webkit-transform-origin: left center;
