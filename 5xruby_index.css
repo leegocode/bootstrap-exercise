@@ -1,13 +1,32 @@
 footer li{
   padding: 0;
   margin: 0;
-  text-align: center;
+  /* text-align: center; */
+  /* list-style: none; */
 }
 
 footer ul {
        list-style-type: none;
        display: contents;
    }
+
+.footer-info{
+   /* display: block; */
+   border: 1px solid;
+  /* display: flex; */
+  /* background-color: #783030; */
+}
+
+
+
+
+
+.footer-info li{
+  /* margin-left:auto; */
+  padding: 0;
+  margin: 0;
+  /* background-color: rgb(111, 187, 250); */
+}
 
 
 a{
@@ -25,7 +44,7 @@ a{
 }
 
 .slides{
-  height:30%;
+  /* height:30%; */
 }
 
 @media screen and (min-width:768px){
@@ -64,13 +83,15 @@ h3>span::after{
 } */
 
 .lecture-list{
+
  flex-wrap: wrap;
-}
-
-
-
 
 }
+
+
+
+
+
 
 .badge{
   background: #fb8080;
